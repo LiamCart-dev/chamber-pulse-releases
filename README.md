@@ -18,3 +18,7 @@ macOS 会话悬浮窗，汇总本机及远程 OpenChamber、DeepSeek Harness 的
 - `dsh-plugin.zip`：解压后在插件目录执行 `dsh plugin --profile desktop add "file:$(pwd)"`，然后重启 DSH Host 并重新加载客户端。详细说明随插件提供。
 
 扩展和插件通过各自宿主安装新版，不由桌面应用的自动更新替换。Release 中的 `update-*.zip` 和 `appcast-*.xml` 供应用自动更新使用，手动安装请选择 DMG。
+
+## 第三方许可
+
+应用更新组件 Sparkle 及其第三方依赖的许可见 [Sparkle-LICENSE.txt](Sparkle-LICENSE.txt)。内置 Node.js 许可随应用提供。
